@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import'mixins';
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -11,4 +13,20 @@ body {
   height: 3rem;
   width: 3rem;
   font-size: 1.5rem;
+}
+
+.card-one {
+  background-image: url('../img/placeholder-img.png');
+  @include img-set;
+}
+
+.card-second {
+  background-image: url('../img/placeholder-img.png');
+  @include img-set;
+}
+
+
+.card-third {
+  background-image: url('../img/placeholder-img.png');
+  @include img-set;
 }

@@ -11,3 +11,24 @@ body {
   width: 3rem;
   font-size: 1.5rem;
 }
+
+.card-one {
+  background-image: url("../img/placeholder-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-second {
+  background-image: url("../img/placeholder-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-third {
+  background-image: url("../img/placeholder-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
